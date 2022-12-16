@@ -1,0 +1,3620 @@
+Winter farm festival(jump "dlg_onTitleStart")
+
+# BITSY VERSION 7.10
+
+# check "▷" and "◁" not in output gamedata
+
+! ROOM_FORMAT 1
+
+
+
+# ------ file constRoomPart.txt ------
+
+PAL pal_farm
+255,255,255
+110,239,250
+75,75,75
+NAME pal_farm
+
+PAL pal_home
+255,247,195
+162,130,47
+75,75,75
+NAME pal_home
+
+PAL pal_forest
+255,255,255
+110,239,250
+75,75,75
+NAME pal_forest
+
+PAL pal_town
+255,255,255
+110,239,250
+75,75,75
+NAME pal_town
+
+ROOM rm_farm
+til_outdoor_fenchCorner1,til_indoor_NESRoofLeft1,til_indoor_NESRoofTop1,til_indoor_NESRoofRight1,til_outdoor_fenchHorizonal3,til_other_exitHintUp1,til_other_exitHintUp2,til_outdoor_fenchHorizonal1,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchCorner2
+til_outdoor_fenchLeft1,til_indoor_NESRoofFront7,til_indoor_NESRoofFront8,til_indoor_NESRoofFront9,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_home3,til_home4,til_home5,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_home0,til_home1,til_home2,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_other_exitHintUp0,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchLeft1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_fenchRight1
+til_outdoor_fenchCorner3,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal3,til_other_exitHintDown1,til_other_exitHintDown2,til_outdoor_fenchHorizonal1,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchCorner4
+NAME rm_farm
+EXT 5,15 rm_forest 6,2
+EXT 6,15 rm_forest 7,2
+EXT 5,0 rm_town 7,14
+EXT 6,0 rm_town 8,14
+EXT 1,3 rm_home 9,12
+PAL pal_farm
+
+ROOM rm_home
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESBrickWallTop0,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop4,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop4,0,0,0
+0,0,0,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,til_indoor_NESFloorB8,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,0,0,0
+0,0,0,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,0,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME rm_home
+EXT 9,13 rm_farm 1,4
+PAL pal_home
+
+ROOM rm_shop
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESBrickWallTop0,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESWallpaperA5,til_indoor_NESWallpaperA5,til_indoor_NESWallpaperA5,til_indoor_NESWallpaperA5,til_indoor_NESWallpaperA5,til_indoor_NESWallpaperA5,til_indoor_NESWallpaperA5,til_indoor_NESWallpaperA5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESWallpaperA8,til_indoor_NESWallpaperA8,til_indoor_NESWallpaperA8,til_indoor_NESWallpaperA8,til_indoor_NESWallpaperA8,til_indoor_NESWallpaperA8,til_indoor_NESWallpaperA8,til_indoor_NESWallpaperA8,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop4,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop4,0,0,0
+0,0,0,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,til_indoor_NESFloorB8,til_indoor_NESFloorB8,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,0,0,0
+0,0,0,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,0,0,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME rm_shop
+EXT 7,13 rm_town 7,6
+EXT 8,13 rm_town 8,6
+PAL pal_home
+
+ROOM rm_forest
+til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass
+til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3,til_other_exitHintUp1,til_other_exitHintUp2,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree2,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass
+til_outdoor_grass,til_outdoor_pineTree4,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_pineTree4,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree4,til_outdoor_pineTree0,til_outdoor_pineTree1
+til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3
+til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1
+til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1
+til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3
+til_outdoor_pineTree4,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree0
+til_outdoor_pineTree1,til_outdoor_pineTree2,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree2
+til_outdoor_pineTree3,til_outdoor_pineTree4,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_pineTree4
+til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,0
+til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_other_exitHintRight0
+til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,0
+til_outdoor_pineTree4,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree0,til_outdoor_pineTree1
+til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree2,til_outdoor_pineTree3
+til_outdoor_grass,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree5,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree3,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree5,til_outdoor_pineTree4,til_outdoor_pineTree5
+NAME rm_forest
+EXT 6,1 rm_farm 5,14
+EXT 7,1 rm_farm 6,14
+EXT 15,10 rm_lake 1,10
+EXT 15,11 rm_lake 1,11
+EXT 15,12 rm_lake 1,12
+PAL pal_forest
+
+ROOM rm_lake
+til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree0,til_outdoor_pineTree1
+til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree3,til_outdoor_stone0,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree2,til_outdoor_pineTree3
+til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_stone0,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_pineTree4,til_outdoor_pineTree5
+til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_lake1,til_outdoor_lake2,til_outdoor_lake2,til_outdoor_lake2,til_outdoor_lake3,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_stone0
+til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_lake1,til_outdoor_lake2,til_outdoor_lake11,til_outdoor_lakeIce0,til_outdoor_lakeIce1,til_outdoor_lakeIce0,til_outdoor_lake13,til_outdoor_lake2,til_outdoor_lake3,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass
+til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_lake6,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lake13,til_outdoor_lake2,til_outdoor_lake3,til_outdoor_grass,til_outdoor_grass
+til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_lake6,til_outdoor_lakeIce1,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce1,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lake6,til_outdoor_grass,til_outdoor_grass
+til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_lake6,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce1,til_outdoor_lakeIce0,til_outdoor_lake6,til_outdoor_grass,til_outdoor_grass
+til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_lake13,til_outdoor_lake17,til_outdoor_lakeIce0,til_outdoor_lakeIce1,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lake19,til_outdoor_lake9,til_outdoor_grass,til_outdoor_grass
+til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_grass,til_outdoor_lake4,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce0,til_outdoor_lakeIce1,til_outdoor_lakeIce0,til_outdoor_lake19,til_outdoor_lake9,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass
+til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_lake7,til_outdoor_lake8,til_outdoor_lake8,til_outdoor_lake8,til_outdoor_lake8,til_outdoor_lake8,til_outdoor_lake8,til_outdoor_lake9,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass
+til_other_exitHintLeft0,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass
+til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1
+til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3
+til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree4,til_outdoor_pineTree5
+til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_stone0,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_grass,til_outdoor_grass,til_outdoor_grass,til_outdoor_stone0
+NAME rm_lake
+PAL pal_forest
+EXT 0,10 rm_forest 14,10
+EXT 0,11 rm_forest 14,11
+EXT 0,12 rm_forest 14,12
+
+ROOM rm_start
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0
+0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0
+til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2
+til_outdoor_townRoad11,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad17
+til_outdoor_townRoad6,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad4
+til_outdoor_townRoad13,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad19
+til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2
+0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0
+0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME rm_start
+PAL pal_town
+
+ROOM rm_end
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0
+0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0
+til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2
+til_outdoor_townRoad11,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad17
+til_outdoor_townRoad6,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad4
+til_outdoor_townRoad13,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad19
+til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2
+0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0
+0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME rm_end
+PAL pal_town
+
+
+ROOM rm_town
+0,0,0,0,0,0,til_indoor_NESRoofLeft1,til_indoor_NESRoofTop1,til_indoor_NESRoofTop2,til_indoor_NESRoofRight1,0,0,0,0,0,0
+0,0,0,0,0,til_indoor_NESRoofLeft1,til_indoor_NESRoofLeft2,til_indoor_NESRoofTop4,til_indoor_NESRoofTop5,til_indoor_NESRoofRight2,til_indoor_NESRoofRight1,0,0,0,0,0
+0,0,0,0,0,til_indoor_NESRoofLeft2,til_indoor_NESRoofFront1,til_indoor_NESRoofFront2,til_indoor_NESRoofFront2,til_indoor_NESRoofFront3,til_indoor_NESRoofRight2,0,0,0,0,0
+0,0,0,0,0,til_indoor_NESRoofFront7,til_indoor_NESRoofFront8,til_indoor_NESRoofFront8,til_indoor_NESRoofFront8,til_indoor_NESRoofFront8,til_indoor_NESRoofFront9,0,0,0,0,0
+0,0,0,0,0,til_outdoor_shopBody1,til_outdoor_shopBody2,til_outdoor_shopDoor1,til_outdoor_shopDoor2,til_outdoor_shopBody2,til_outdoor_shopBody3,0,0,0,0,0
+til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,til_outdoor_shopBody7,til_outdoor_shopBody8,til_outdoor_shopDoor3,til_outdoor_shopDoor4,til_outdoor_shopBody8,til_outdoor_shopBody9,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1
+til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_fenchRight1,til_other_exitHintUp1,til_other_exitHintUp2,til_outdoor_fenchLeft1,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3
+til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchCorner4,til_outdoor_townPath0,til_outdoor_townPath1,til_outdoor_fenchCorner3,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2
+til_outdoor_townRoad11,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad8,til_outdoor_townRoad17
+til_outdoor_townRoad6,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad5,til_outdoor_townRoad4
+til_outdoor_townRoad13,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad2,til_outdoor_townRoad19
+til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchCorner2,til_outdoor_townPath1,til_outdoor_townPath0,til_outdoor_fenchCorner1,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2
+til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_fenchRight1,til_outdoor_townPath0,til_outdoor_townPath1,til_outdoor_fenchLeft1,0,til_outdoor_bush0,til_outdoor_bush1,0,til_outdoor_bush0,til_outdoor_bush1
+til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_fenchRight1,til_outdoor_townPath1,til_outdoor_townPath0,til_outdoor_fenchLeft1,0,til_outdoor_bush2,til_outdoor_bush3,0,til_outdoor_bush2,til_outdoor_bush3
+0,0,0,0,0,0,til_outdoor_fenchRight1,til_outdoor_townPath0,til_outdoor_townPath1,til_outdoor_fenchLeft1,0,0,0,0,0,0
+0,0,0,0,0,0,til_outdoor_fenchRight1,til_other_exitHintDown1,til_other_exitHintDown2,til_outdoor_fenchLeft1,0,0,0,0,0,0
+NAME rm_town
+EXT 7,5 rm_shop 7,12
+EXT 8,5 rm_shop 8,12
+EXT 7,15 rm_farm 5,1
+EXT 8,15 rm_farm 6,1
+PAL pal_town
+
+ROOM rm_forCover
+0,0,0,0,til_outdoor_pineTree0,til_outdoor_pineTree1,0,til_outdoor_grass_footprint,0,til_outdoor_pineTree0,til_outdoor_pineTree1,0,0,0,0,0
+0,0,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree2,til_outdoor_pineTree3,0,til_outdoor_grass_footprint,0,til_outdoor_pineTree2,til_outdoor_pineTree3,0,0,til_outdoor_pineTree0,til_outdoor_pineTree1,0
+0,0,til_outdoor_pineTree2,til_outdoor_pineTree3,til_outdoor_pineTree4,til_outdoor_pineTree5,0,til_outdoor_grass_footprint,0,til_outdoor_pineTree4,til_outdoor_pineTree5,0,til_outdoor_stone0,til_outdoor_pineTree2,til_outdoor_pineTree3,0
+til_outdoor_stone0,0,til_outdoor_pineTree4,til_outdoor_pineTree5,0,0,0,til_outdoor_grass_footprint,til_outdoor_grass_footprint,0,0,0,0,til_outdoor_pineTree4,til_outdoor_pineTree5,0
+0,0,0,0,0,0,0,0,til_outdoor_grass_footprint,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,til_outdoor_grass_footprint,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,til_outdoor_grass_footprint,til_outdoor_grass_footprint,0,0,0,til_outdoor_pineTree0,til_outdoor_pineTree1,0
+til_outdoor_pineTree0,til_outdoor_pineTree1,0,0,0,0,0,0,0,0,0,0,0,til_outdoor_pineTree2,til_outdoor_pineTree3,0
+til_outdoor_pineTree2,til_outdoor_pineTree3,0,0,0,0,0,0,0,0,0,0,til_outdoor_pineTree0,til_outdoor_pineTree1,til_outdoor_pineTree5,0
+til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_pineTree0,til_outdoor_pineTree1,0,0,0,0,0,0,0,0,til_outdoor_pineTree2,til_outdoor_pineTree3,0,0
+0,0,til_outdoor_pineTree2,til_outdoor_pineTree3,0,0,0,0,0,0,0,0,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_stone0,0
+0,0,til_outdoor_pineTree4,til_outdoor_pineTree5,til_outdoor_stone0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME rm_forCover
+ITM itm_char_W 2,5
+ITM itm_char_I 3,5
+ITM itm_char_N 4,5
+ITM itm_char_T 5,5
+ITM itm_char_E 6,5
+ITM itm_char_R 7,5
+ITM itm_char_F 9,5
+ITM itm_char_A 10,5
+ITM itm_char_R 11,5
+ITM itm_char_M 12,5
+ITM itm_char_F 3,7
+ITM itm_char_E 4,7
+ITM itm_char_S 5,7
+ITM itm_char_T 6,7
+ITM itm_char_I 7,7
+ITM itm_char_V 8,7
+ITM itm_char_A 9,7
+ITM itm_char_L 10,7
+ITM itm_snowYamWildSpawn 9,8
+PAL pal_farm
+
+
+
+# ------ file constTilePart.txt ------
+
+TIL til_indoor_wallTop
+11111111
+10000001
+10000001
+10011001
+10011001
+10000001
+10000001
+11111111
+NAME til_indoor_wallTop
+WAL true
+
+TIL til_outdoor_grass
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME til_outdoor_grass
+
+TIL til_outdoor_grass_footprint
+00000000
+00100000
+01010000
+00100000
+00000100
+00001010
+00000100
+00000000
+NAME til_outdoor_grass_footprint
+
+TIL til_outdoor_townRoad0
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME til_outdoor_townRoad0
+
+TIL til_outdoor_townRoad1
+00000001
+10000000
+00000000
+00101000
+00010000
+00000111
+00000110
+00000101
+NAME til_outdoor_townRoad1
+
+TIL til_outdoor_townRoad2
+00000001
+10000000
+00000000
+00101000
+00010000
+11111111
+00000010
+11111111
+NAME til_outdoor_townRoad2
+
+TIL til_outdoor_townRoad3
+00000001
+10000000
+00000000
+00101000
+00010000
+11100000
+01100000
+10100000
+NAME til_outdoor_townRoad3
+
+TIL til_outdoor_townRoad4
+00000101
+10000111
+00000101
+00101101
+00010101
+00000101
+01000101
+10000101
+NAME til_outdoor_townRoad4
+
+TIL til_outdoor_townRoad5
+00000001
+00000001
+00000001
+00101000
+00010000
+00000000
+01000000
+10000000
+NAME til_outdoor_townRoad5
+
+TIL til_outdoor_townRoad6
+10100001
+10100000
+10100100
+11101000
+10110000
+10100000
+10100000
+10100000
+NAME til_outdoor_townRoad6
+
+TIL til_outdoor_townRoad7
+00000101
+00000110
+00000111
+00101000
+00010000
+00000000
+01000000
+10000000
+NAME til_outdoor_townRoad7
+
+TIL til_outdoor_townRoad8
+11111111
+10000000
+11111111
+00101000
+00010000
+00000000
+01000000
+10000000
+NAME til_outdoor_townRoad8
+
+TIL til_outdoor_townRoad9
+10100001
+01100000
+11100000
+00101000
+00010000
+00000000
+01000000
+10000000
+NAME til_outdoor_townRoad9
+
+TIL til_outdoor_townRoad11
+11111111
+10000000
+10111111
+10100000
+10110000
+10101000
+10100000
+10100000
+NAME til_outdoor_townRoad11
+
+TIL til_outdoor_townRoad13
+10100001
+10100000
+10101000
+10110000
+10100000
+10111111
+10000000
+11111111
+NAME til_outdoor_townRoad13
+
+TIL til_outdoor_townRoad17
+11111111
+00000001
+11111101
+00100101
+00010101
+00000101
+00000101
+00000101
+NAME til_outdoor_townRoad17
+
+TIL til_outdoor_townRoad19
+10000101
+00000101
+00000101
+00100101
+00010101
+11111101
+00000001
+11111111
+NAME til_outdoor_townRoad19
+
+TIL til_outdoor_townPath0
+00000000
+01110111
+01000000
+01000000
+01000000
+01000000
+01110111
+00000000
+NAME til_outdoor_townPath0
+
+TIL til_outdoor_townPath1
+00000000
+11101110
+00000010
+00000010
+00000010
+00000010
+11101110
+00000000
+NAME til_outdoor_townPath1
+
+TIL til_winterField_emptyShow
+00111100
+10011111
+11111101
+11111111
+11100111
+11100111
+11111110
+01111100
+NAME til_winterField_emptyShow
+
+TIL til_winterField_emptyHide
+11000000
+11000010
+00000000
+00000000
+00000000
+00100110
+00000110
+00000000
+NAME til_winterField_emptyHide
+
+TIL til_winterField_harvestHide
+11000000
+11000010
+00000000
+00000000
+00000000
+00100110
+00000110
+00000000
+NAME til_winterField_harvestHide
+
+TIL til_outdoor_fenchHorizonal1
+00011000
+00100100
+00100100
+11111111
+10000000
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchHorizonal1
+WAL true
+
+TIL til_outdoor_fenchHorizonal2
+00011000
+00100100
+00100100
+11111111
+00000000
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchHorizonal2
+WAL true
+
+TIL til_outdoor_fenchHorizonal3
+00011000
+00100100
+00100100
+11111111
+00000001
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchHorizonal3
+WAL true
+
+TIL til_outdoor_fenchCorner1
+00011000
+00100100
+11100100
+10111111
+10100000
+10111111
+10100100
+10111100
+NAME til_outdoor_fenchCorner1
+WAL true
+
+TIL til_outdoor_fenchCorner2
+00011000
+00100100
+00100111
+11111101
+00000101
+11111101
+00100101
+00111101
+NAME til_outdoor_fenchCorner2
+WAL true
+
+TIL til_outdoor_fenchCorner3
+10111000
+10100100
+10100100
+11111111
+10000000
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchCorner3
+WAL true
+
+TIL til_outdoor_fenchCorner4
+00011101
+00100101
+00100101
+11111111
+00000001
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchCorner4
+WAL true
+
+TIL til_outdoor_fenchLeft0
+11100000
+10100000
+10111000
+10101000
+10101000
+10111000
+10100000
+10100000
+NAME til_outdoor_fenchLeft0
+WAL true
+
+
+TIL til_outdoor_fenchLeft1
+10100000
+10100000
+10111000
+10101000
+10101000
+10111000
+10100000
+10100000
+NAME til_outdoor_fenchLeft1
+WAL true
+
+TIL til_outdoor_fenchRight0
+00000111
+00000101
+00011101
+00010101
+00010101
+00011101
+00000101
+00000101
+NAME til_outdoor_fenchRight0
+WAL true
+
+
+TIL til_outdoor_fenchRight1
+00000101
+00000101
+00011101
+00010101
+00010101
+00011101
+00000101
+00000101
+NAME til_outdoor_fenchRight1
+WAL true
+
+TIL til_indoor_wallBody
+11111111
+00010101
+01010001
+00010001
+00011001
+00010001
+10010001
+00010011
+NAME til_indoor_wallBody
+WAL true
+
+TIL til_indoor_wallLeftBody
+11111111
+10010101
+11010001
+10010001
+10011001
+10010001
+10010001
+10010011
+NAME til_indoor_wallLeftBody
+WAL true
+
+TIL til_indoor_wallBottom
+00010001
+00010101
+01010001
+00010001
+00011001
+00010001
+10010001
+11111111
+NAME til_indoor_wallBottom
+WAL true
+
+TIL til_indoor_wallLeftBottom
+10010001
+10010101
+11010001
+10010001
+10011001
+10010001
+10010001
+11111111
+NAME til_indoor_wallLeftBottom
+WAL true
+
+TIL til_home0
+10100000
+10100010
+10100010
+10100000
+10100000
+10100000
+10100000
+11111111
+NAME til_home0
+
+TIL til_home1
+10010001
+10011111
+10010001
+10010001
+10011111
+10000000
+10000000
+11111111
+NAME til_home1
+WAL true
+
+TIL til_home2
+00010001
+11110001
+00010001
+00010001
+11110001
+00000001
+00000001
+11111111
+NAME til_home2
+WAL true
+
+TIL til_home3
+11111111
+10000000
+11111111
+10000000
+10111111
+10100000
+10100000
+10100000
+NAME til_home3
+WAL true
+
+TIL til_home4
+11111111
+00000000
+11111111
+00000000
+10000000
+10000000
+10011111
+10010001
+NAME til_home4
+WAL true
+
+TIL til_home5
+11111111
+00000001
+11111111
+00000001
+00000001
+00000001
+11110001
+00010001
+NAME til_home5
+WAL true
+
+TIL til_home6
+10010010
+10010011
+10011100
+10110000
+11000000
+10000000
+10000000
+10000000
+NAME til_home6
+WAL true
+
+TIL til_home7
+00100100
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME til_home7
+WAL true
+
+TIL til_home8
+01001001
+11101001
+00011001
+00000101
+00000011
+00000001
+00000001
+00000001
+NAME til_home8
+WAL true
+
+TIL til_home9
+00001111
+00110010
+11010010
+10010010
+10010010
+10010010
+10010010
+10010010
+NAME til_home9
+WAL true
+
+TIL til_home10
+11111111
+00100100
+00100100
+00100100
+00100100
+00100100
+00100100
+00100100
+NAME til_home10
+WAL true
+
+TIL til_home11
+11110000
+01001100
+01001011
+01001001
+01001001
+01001001
+01001001
+01001001
+NAME til_home11
+WAL true
+
+TIL til_outdoor_shopDoor3
+01000000
+01000010
+01000010
+01000000
+01000000
+01000000
+01000000
+11111111
+NAME til_outdoor_shopDoor3
+
+TIL til_outdoor_shopDoor4
+10000001
+10100001
+10100001
+10000001
+10000001
+10000001
+10000001
+11111111
+NAME til_outdoor_shopDoor4
+
+TIL til_outdoor_shopDoor1
+00000000
+00000000
+11111111
+00000000
+01111111
+01000000
+01000000
+01000000
+NAME til_outdoor_shopDoor1
+WAL true
+
+TIL til_outdoor_shopDoor2
+00000000
+00000000
+11111111
+00000000
+11111111
+10000001
+10000001
+10000001
+NAME til_outdoor_shopDoor2
+WAL true
+
+TIL til_outdoor_shopBody1
+10000000
+10000000
+11111111
+10000000
+10000000
+10000000
+10000000
+10000000
+NAME til_outdoor_shopBody1
+WAL true
+
+TIL til_outdoor_shopBody2
+00000000
+00000000
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME til_outdoor_shopBody2
+WAL true
+
+TIL til_outdoor_shopBody3
+00000001
+00000001
+11111111
+00000001
+00000001
+00000001
+00000001
+00000001
+NAME til_outdoor_shopBody3
+WAL true
+
+TIL til_outdoor_shopBody7
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+11111111
+NAME til_outdoor_shopBody7
+WAL true
+
+TIL til_outdoor_shopBody8
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+NAME til_outdoor_shopBody8
+WAL true
+
+TIL til_outdoor_shopBody9
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+11111111
+NAME til_outdoor_shopBody9
+WAL true
+
+TIL til_outdoor_okaTree0
+00011001
+00100110
+00100000
+01001000
+10010000
+01001001
+00100010
+01000000
+NAME til_outdoor_okaTree0
+WAL true
+
+TIL til_outdoor_okaTree1
+10000000
+01111000
+00000100
+01000100
+01010010
+00100001
+10000010
+00000010
+NAME til_outdoor_okaTree1
+WAL true
+
+TIL til_outdoor_okaTree2
+01000100
+10011010
+01000000
+00100101
+00011011
+00001011
+00000111
+00000011
+NAME til_outdoor_okaTree2
+WAL true
+
+TIL til_outdoor_okaTree3
+00000101
+01001001
+00111010
+11010100
+01111000
+11000000
+11000000
+11000000
+NAME til_outdoor_okaTree3
+WAL true
+
+TIL til_outdoor_okaTree4
+00000011
+00000011
+00000011
+00000011
+00001111
+00010111
+00001001
+00000000
+NAME til_outdoor_okaTree4
+WAL true
+
+TIL til_outdoor_okaTree5
+11000000
+11000000
+11000000
+11000000
+11100000
+11111000
+10001100
+00000000
+NAME til_outdoor_okaTree5
+WAL true
+
+TIL til_outdoor_pineTree0
+00000001
+00000010
+00000100
+00001000
+00010000
+00001100
+00010010
+00100001
+NAME til_outdoor_pineTree0
+WAL true
+
+TIL til_outdoor_pineTree1
+10000000
+01000000
+00100000
+00010000
+00001000
+00110000
+01001000
+10000100
+NAME til_outdoor_pineTree1
+WAL true
+
+TIL til_outdoor_pineTree2
+00011000
+00100000
+01000100
+00111010
+00100001
+01000000
+10001100
+01111010
+NAME til_outdoor_pineTree2
+WAL true
+
+TIL til_outdoor_pineTree3
+00011000
+00000100
+00100010
+01011100
+10000100
+00000010
+00110001
+01011110
+NAME til_outdoor_pineTree3
+WAL true
+
+TIL til_outdoor_pineTree4
+00100001
+01000000
+10001000
+10011100
+11111110
+00111111
+01111111
+00011111
+NAME til_outdoor_pineTree4
+WAL true
+
+TIL til_outdoor_pineTree5
+10000100
+00000010
+00010001
+00111001
+01111111
+11111100
+11111110
+11111000
+NAME til_outdoor_pineTree5
+WAL true
+
+TIL til_outdoor_bush0
+00000000
+00000101
+00001010
+00011010
+01100100
+10010011
+11111001
+01100100
+NAME til_outdoor_bush0
+WAL true
+
+TIL til_outdoor_bush1
+00000000
+00010000
+10101000
+01011110
+10100101
+11001001
+10011111
+10100110
+NAME til_outdoor_bush1
+WAL true
+
+TIL til_outdoor_bush2
+11011000
+11110001
+01101110
+11001000
+01110011
+00111111
+00001111
+00000000
+NAME til_outdoor_bush2
+WAL true
+
+TIL til_outdoor_bush3
+00011011
+10001110
+01111100
+10010010
+11001110
+11111100
+11110000
+00000000
+NAME til_outdoor_bush3
+WAL true
+
+TIL til_other_exitHintLeft0
+00011000
+00101000
+01001111
+10000001
+10000001
+01001111
+00101000
+00011000
+NAME til_other_exitHintLeft0
+
+TIL til_other_exitHintRight0
+00011000
+00010100
+11110010
+10000001
+10000001
+11110010
+00010100
+00011000
+NAME til_other_exitHintRight0
+
+TIL til_other_exitHintDown0
+00111100
+00100100
+00100100
+11100111
+10000001
+01000010
+00100100
+00011000
+NAME til_other_exitHintDown0
+
+TIL til_other_exitHintDown1
+00000011
+00000010
+00000010
+00001110
+00001000
+00000100
+00000010
+00000001
+NAME til_other_exitHintDown1
+
+TIL til_other_exitHintDown2
+11000000
+01000000
+01000000
+01110000
+00010000
+00100000
+01000000
+10000000
+NAME til_other_exitHintDown2
+
+TIL til_other_exitHintUp0
+00011000
+00100100
+01000010
+10000001
+11100111
+00100100
+00100100
+00111100
+NAME til_other_exitHintUp0
+
+TIL til_other_exitHintUp1
+00000001
+00000010
+00000100
+00001000
+00001110
+00000010
+00000010
+00000011
+NAME til_other_exitHintUp1
+
+TIL til_other_exitHintUp2
+10000000
+01000000
+00100000
+00010000
+01110000
+01000000
+01000000
+11000000
+NAME til_other_exitHintUp2
+
+TIL til_outdoor_fenchGateLeft
+00000000
+00000000
+00000000
+11111100
+11111100
+11111100
+11111100
+11000000
+NAME til_outdoor_fenchGateLeft
+WAL true
+
+TIL til_outdoor_fenchGateRight
+00000000
+00000000
+00000000
+00111111
+00111111
+00111111
+00111111
+00000011
+NAME til_outdoor_fenchGateRight
+WAL true
+
+
+
+TIL til_other_bannerBottom
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME til_other_bannerBottom
+
+TIL til_other_bannerTop
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+NAME til_other_bannerTop
+
+TIL til_other_bannerLeft
+00000111
+00000111
+00000111
+00000111
+00000111
+00000111
+00000111
+00000111
+NAME til_other_bannerLeft
+
+TIL til_other_fenchPoleLeft
+00000111
+01100111
+11111111
+11111111
+01100111
+01100111
+01100111
+01100111
+NAME til_other_fenchPoleLeft
+WAL true
+
+TIL til_other_fenchPoleRight
+11100000
+11100110
+11111111
+11111111
+11100110
+11100110
+11100110
+11100110
+NAME til_other_fenchPoleRight
+WAL true
+
+TIL til_other_bannerRight
+11100000
+11100000
+11100000
+11100000
+11100000
+11100000
+11100000
+11100000
+NAME til_other_bannerRight
+
+TIL til_other_balloon0
+00111000
+01000100
+01000100
+01000100
+00101000
+00010000
+00010000
+00100000
+>
+00111000
+01000100
+01000100
+01000100
+00101000
+00010000
+00010000
+00001000
+NAME til_other_balloon0
+
+TIL til_indoor_floor
+11111111
+00000100
+01000000
+00000000
+11111111
+00000000
+00010000
+00000000
+NAME til_indoor_floor
+
+TIL til_indoor_floorBottom
+11111111
+00000100
+01000000
+00000000
+11111111
+00000000
+00010000
+11111111
+NAME til_indoor_floorBottom
+
+TIL til_indoor_shopContainer1Left
+00110000
+00111111
+00111111
+00110000
+00110000
+00110000
+00110000
+00110000
+NAME til_indoor_shopContainer1Left
+
+TIL til_indoor_shopContainer1Main
+00000000
+11111111
+11111111
+00000000
+11000011
+10000001
+11000011
+00000000
+NAME til_indoor_shopContainer1Main
+
+TIL til_indoor_shopContainer1Mid
+00011000
+11111111
+11111111
+00011000
+00011000
+00011000
+00011000
+00011000
+NAME til_indoor_shopContainer1Mid
+
+TIL til_indoor_shopContainer1Right
+00011000
+11111000
+11111000
+00011000
+00011000
+00011000
+00011000
+00011000
+NAME til_indoor_shopContainer1Right
+
+TIL til_indoor_shopContainer2Left
+00000000
+00000000
+00111111
+00111111
+00110000
+00110000
+00110000
+00110000
+NAME til_indoor_shopContainer2Left
+
+TIL til_indoor_shopContainer2Main
+00000000
+00000000
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+NAME til_indoor_shopContainer2Main
+
+TIL til_indoor_shopContainer2Mid
+00000000
+00000000
+11111111
+11111111
+00011000
+00011000
+00011000
+00011000
+NAME til_indoor_shopContainer2Mid
+
+TIL til_indoor_shopContainer2Right
+00000000
+00000000
+11111000
+11111000
+00011000
+00011000
+00011000
+00011000
+NAME shopDesk3Right
+
+TIL til_outdoor_lake1
+00000000
+00010001
+00011111
+00011111
+00001111
+00001110
+00001101
+00011010
+NAME til_outdoor_lake1
+
+TIL til_outdoor_lake2
+00000000
+00000000
+10000001
+11110011
+11110011
+01100110
+10000001
+01111110
+NAME til_outdoor_lake2
+
+TIL til_outdoor_lake11
+00001000
+00001000
+10011100
+11011100
+11111100
+01111100
+10000010
+01111100
+NAME til_outdoor_lake11
+
+TIL til_outdoor_lake4
+00110000
+00010000
+00001000
+00001000
+00011000
+00111000
+00011000
+00010000
+NAME til_outdoor_lake4
+
+TIL til_outdoor_lake6
+00001100
+00001000
+00010000
+00010000
+00011000
+00011100
+00011000
+00001000
+NAME til_outdoor_lake6
+
+TIL til_outdoor_lake5
+10101000
+01000100
+00000000
+00000001
+01001000
+00110000
+00000000
+00000000
+NAME til_outdoor_lake5
+
+TIL til_outdoor_lake3
+00000000
+00000000
+10001000
+11111000
+11111000
+01110000
+10110000
+01011000
+NAME til_outdoor_lake3
+
+TIL til_outdoor_lake13
+00010000
+00010000
+00111001
+00111011
+00111111
+00111110
+01000001
+00111110
+NAME til_outdoor_lake13
+
+TIL til_outdoor_lake7
+00100000
+00100000
+00100000
+00110000
+00001100
+00000011
+00000000
+00000000
+NAME til_outdoor_lake7
+
+TIL til_outdoor_lake17
+00000000
+00000000
+00000000
+00000000
+00000000
+11000000
+00100000
+00100000
+NAME til_outdoor_lake17
+
+TIL til_outdoor_lake8
+00000000
+00000000
+00000000
+00111000
+01000110
+10000001
+00000000
+00000000
+NAME til_outdoor_lake8
+
+TIL til_outdoor_lake9
+00000100
+00000100
+00000100
+00001100
+00110000
+11000000
+00000000
+00000000
+NAME til_outdoor_lake9
+
+TIL til_outdoor_lake19
+00000000
+00000000
+00000000
+00000000
+00000000
+00000111
+00001000
+00001000
+NAME til_outdoor_lake19
+
+TIL til_outdoor_lakeIce0
+00000000
+00000000
+00000000
+00001000
+00010000
+00000000
+00000000
+00000000
+NAME til_outdoor_lakeIce0
+
+TIL til_outdoor_lakeIce1
+00000000
+00001000
+00010000
+00100100
+00001000
+00010000
+00000000
+00000000
+NAME til_outdoor_lakeIce1
+
+TIL til_outdoor_stone0
+00111100
+01000010
+10000001
+10000011
+10001111
+10011111
+11111111
+11111111
+NAME til_outdoor_stone0
+WAL true
+
+TIL til_indoor_NESBrickWall0
+10010000
+10010000
+10010000
+11111111
+10000001
+10000001
+10000001
+11111111
+NAME til_indoor_NESWall0
+WAL true
+
+TIL til_indoor_NESBrickWall1
+00010000
+00010000
+00010000
+11111111
+00000001
+00000001
+00000001
+11111111
+NAME til_indoor_NESBrickWall1
+WAL true
+
+TIL til_indoor_NESBrickWall2
+00010001
+00010001
+00010001
+11111111
+00000001
+00000001
+00000001
+11111111
+NAME til_indoor_NESBrickWall2
+WAL true
+
+TIL til_indoor_NESBrickWallTop0
+11111111
+00000000
+00000000
+00000000
+11111111
+00000000
+00000000
+11111111
+NAME til_indoor_NESBrickWallTop0
+WAL true
+
+TIL til_indoor_NESBrickWallTop1
+11111111
+10000000
+10000000
+10000000
+11111111
+10000000
+10000000
+11111111
+NAME til_indoor_NESBrickWallTop1
+WAL true
+
+TIL til_indoor_NESBrickWallTop2
+11111111
+00000001
+00000001
+00000001
+11111111
+00000001
+00000001
+11111111
+NAME til_indoor_NESBrickWallTop2
+WAL true
+
+TIL til_indoor_NESBrickWallTop3
+11111111
+10000001
+10000001
+10000001
+11111111
+10000001
+10000001
+11111111
+NAME til_indoor_NESBrickWallTop3
+WAL true
+
+TIL til_indoor_NESBrickWallTop4
+10000001
+10000001
+10000001
+10000001
+11111111
+10000001
+10000001
+11111111
+NAME til_indoor_NESBrickWallTop4
+WAL true
+
+TIL til_indoor_NESBrickWallTop5
+11111111
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+NAME til_indoor_NESBrickWallTop5
+WAL true
+
+TIL til_indoor_NESWallpaperA1
+11111111
+10110011
+10110011
+10110011
+11001100
+11001100
+11001100
+11001100
+NAME til_indoor_NESWallpaperA1
+WAL true
+
+TIL til_indoor_NESWallpaperA2
+11111111
+00110011
+00110011
+00110011
+11001100
+11001100
+11001100
+11001100
+NAME til_indoor_NESWallpaperA2
+WAL true
+
+TIL til_indoor_NESWallpaperA3
+11111111
+00110011
+00110011
+00110011
+11001101
+11001101
+11001101
+11001101
+NAME til_indoor_NESWallpaperA3
+WAL true
+
+TIL til_indoor_NESWallpaperA4
+10110011
+10110011
+10110011
+10110011
+11001100
+11001100
+11001100
+11001100
+NAME til_indoor_NESWallpaperA4
+WAL true
+
+TIL til_indoor_NESWallpaperA5
+00110011
+00110011
+00110011
+00110011
+11001100
+11001100
+11001100
+11001100
+NAME til_indoor_NESWallpaperA5
+WAL true
+
+TIL til_indoor_NESWallpaperA6
+00110011
+00110011
+00110011
+00110011
+11001101
+11001101
+11001101
+11001101
+NAME til_indoor_NESWallpaperA6
+WAL true
+
+TIL til_indoor_NESWallpaperA7
+10110011
+10110011
+10110011
+10110011
+11001100
+11001100
+11001100
+11111111
+NAME til_indoor_NESWallpaperA7
+WAL true
+
+TIL til_indoor_NESWallpaperA8
+00110011
+00110011
+00110011
+00110011
+11001100
+11001100
+11001100
+11111111
+NAME til_indoor_NESWallpaperA8
+WAL true
+
+TIL til_indoor_NESWallpaperA9
+00110011
+00110011
+00110011
+00110011
+11001101
+11001101
+11001101
+11111111
+NAME til_indoor_NESWallpaperA9
+WAL true
+
+TIL til_indoor_NESWallpaperB1
+11111111
+11010110
+11010110
+11010110
+11010110
+11010110
+11010110
+10101001
+NAME til_indoor_NESWallpaperB1
+WAL true
+
+TIL til_indoor_NESWallpaperB2
+11111111
+01010110
+01010110
+01010110
+01010110
+01010110
+01010110
+10101001
+NAME til_indoor_NESWallpaperB2
+WAL true
+
+TIL til_indoor_NESWallpaperB3
+11111111
+01010111
+01010111
+01010111
+01010111
+01010111
+01010111
+10101001
+NAME til_indoor_NESWallpaperB3
+WAL true
+
+TIL til_indoor_NESWallpaperB4
+10101001
+11010110
+11010110
+11010110
+11010110
+11010110
+11010110
+10101001
+NAME til_indoor_NESWallpaperB4
+WAL true
+
+TIL til_indoor_NESWallpaperB5
+10101001
+01010110
+01010110
+01010110
+01010110
+01010110
+01010110
+10101001
+NAME til_indoor_NESWallpaperB5
+WAL true
+
+TIL til_indoor_NESWallpaperB6
+10101001
+01010111
+01010111
+01010111
+01010111
+01010111
+01010111
+10101001
+NAME til_indoor_NESWallpaperB6
+WAL true
+
+TIL til_indoor_NESWallpaperB7
+10101001
+11010110
+11010110
+11010110
+11010110
+11010110
+11010110
+11111111
+NAME til_indoor_NESWallpaperB7
+WAL true
+
+TIL til_indoor_NESWallpaperB8
+10101001
+01010110
+01010110
+01010110
+01010110
+01010110
+01010110
+11111111
+NAME til_indoor_NESWallpaperB8
+WAL true
+
+TIL til_indoor_NESWallpaperB9
+10101001
+01010111
+01010111
+01010111
+01010111
+01010111
+01010111
+11111111
+NAME til_indoor_NESWallpaperB9
+WAL true
+
+TIL til_indoor_NESWallpaperC5
+10101010
+10101010
+10101010
+10101010
+01010101
+01010101
+01010101
+01010101
+NAME til_indoor_NESWallpaperC5
+WAL true
+
+TIL til_indoor_NESWallpaperC8
+10101010
+10101010
+10101010
+10101010
+01010101
+01010101
+01010101
+11111111
+NAME til_indoor_NESWallpaperC8
+WAL true
+
+TIL til_indoor_NESFloorB12
+11111111
+10101010
+01010101
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME til_indoor_NESFloorB12
+
+TIL til_indoor_NESFloorB1
+11111111
+10000000
+10000000
+10001000
+10000000
+10000000
+10000000
+10000000
+NAME til_indoor_NESFloorB1
+
+TIL til_indoor_NESFloorB2
+11111111
+00000000
+00000000
+00001000
+00000000
+00000000
+00000000
+00000000
+NAME til_indoor_NESFloorB2
+
+TIL til_indoor_NESFloorB3
+11111111
+00000001
+00000001
+00001001
+00000001
+00000001
+00000001
+00000001
+NAME til_indoor_NESFloorB3
+
+TIL til_indoor_NESFloorB4
+10000000
+10000000
+10000000
+10001000
+10000000
+10000000
+10000000
+10000000
+NAME til_indoor_NESFloorB4
+
+TIL til_indoor_NESFloorB5
+00000000
+00000000
+00000000
+00001000
+00000000
+00000000
+00000000
+00000000
+NAME til_indoor_NESFloorB5
+
+TIL til_indoor_NESFloorB6
+00000001
+00000001
+00000001
+00001001
+00000001
+00000001
+00000001
+00000001
+NAME til_indoor_NESFloorB6
+
+TIL til_indoor_NESFloorB7
+10000000
+10000000
+10000000
+10001000
+10000000
+10000000
+10000000
+11111111
+NAME til_indoor_NESFloorB7
+
+TIL til_indoor_NESFloorB8
+00000000
+00000000
+00000000
+00001000
+00000000
+00000000
+00000000
+11111111
+NAME til_indoor_NESFloorB8
+
+TIL til_indoor_NESFloorB9
+00000001
+00000001
+00000001
+00001001
+00000001
+00000001
+00000001
+11111111
+NAME til_indoor_NESFloorB9
+
+TIL til_indoor_NESRoofFront1
+10001001
+10001010
+10001111
+10001101
+10011011
+10100001
+11000001
+10000001
+NAME til_indoor_NESRoofFront1
+WAL true
+
+TIL til_indoor_NESRoofFront2
+00000000
+00000000
+11111111
+01010101
+10101011
+00000001
+00000001
+00000001
+NAME til_indoor_NESRoofFront2
+WAL true
+
+TIL til_indoor_NESRoofFront3
+10010001
+01010001
+11110001
+01010001
+10101001
+00000101
+00000011
+00000001
+NAME til_indoor_NESRoofFront3
+WAL true
+
+TIL til_indoor_NESRoofFront7
+10001001
+10001011
+10001101
+10001001
+10011111
+10100000
+11000000
+11111111
+NAME til_indoor_NESRoofFront7
+WAL true
+
+TIL til_indoor_NESRoofFront8
+00000001
+00000001
+00000001
+10000011
+11111111
+00000000
+00000000
+11111111
+NAME til_indoor_NESRoofFront8
+WAL true
+
+TIL til_indoor_NESRoofFront9
+10010001
+01010001
+00110001
+10010001
+11111001
+00000101
+00000011
+11111111
+NAME til_indoor_NESRoofFront9
+WAL true
+
+TIL til_indoor_NESRoofTop1
+11111111
+10010001
+10010001
+10010001
+10010001
+10010001
+10010001
+11111111
+NAME til_indoor_NESRoofTop1
+WAL true
+
+TIL til_indoor_NESRoofTop2
+11111111
+00010001
+00010001
+00010001
+00010001
+00010001
+00010001
+11111111
+NAME til_indoor_NESRoofTop2
+WAL true
+
+TIL til_indoor_NESRoofTop4
+10010001
+10010001
+10010001
+10010001
+10010001
+10010001
+10010001
+11111111
+NAME til_indoor_NESRoofTop4
+WAL true
+
+TIL til_indoor_NESRoofTop5
+00010001
+00010001
+00010001
+00010001
+00010001
+00010001
+00010001
+11111111
+NAME til_indoor_NESRoofTop5
+WAL true
+
+TIL til_indoor_NESRoofLeft1
+00000001
+00000010
+00000100
+00001000
+00011000
+00101000
+01001000
+10001000
+NAME til_indoor_NESRoofLeft1
+WAL true
+
+TIL til_indoor_NESRoofLeft2
+10001001
+10001010
+10001100
+10001000
+10011000
+10101000
+11001000
+10001000
+NAME til_indoor_NESRoofLeft2
+WAL true
+
+TIL til_indoor_NESRoofRight1
+10000000
+01000000
+00100000
+00010000
+00011000
+00010100
+00010010
+00010001
+NAME til_indoor_NESRoofRight1
+WAL true
+
+TIL til_indoor_NESRoofRight2
+10010001
+01010001
+00110001
+00010001
+00011001
+00010101
+00010011
+00010001
+NAME til_indoor_NESRoofRight2
+WAL true
+
+# generated from WildSlotModel
+SPR spr_snowYamWildSlot_protytypeEmpty
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00011000
+00100100
+NAME spr_snowYamWildSlot_protytypeEmpty
+
+# generated from WildSlotModel
+SPR spr_snowYamWildSlot_protytypeHarvest
+00000000
+00001000
+00010000
+00001000
+00011000
+00111100
+00111100
+00111100
+>
+00000000
+00001000
+00000100
+00001000
+00011000
+00111100
+00111100
+00111100
+NAME spr_snowYamWildSlot_protytypeHarvest
+
+
+
+# ------ file constSpritePart.txt ------
+
+SPR A
+00011000
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+POS rm_start 0,9
+
+SPR spr_A_forCover
+00011000
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+POS rm_forCover 9,7
+
+SPR spr_mayor_start
+00111100
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+>
+00111100
+10011000
+01011000
+00111100
+00111110
+00111101
+00100100
+00100100
+NAME spr_mayor_start
+DLG dlg_mayor_start
+POS rm_start 15,9
+
+SPR spr_shopAssistant
+00111100
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+>
+00111100
+10011000
+01011000
+00111100
+00111110
+00111101
+00100100
+00100100
+NAME spr_shopAssistant
+DLG dlg_shopAssistant
+POS rm_shop 11,8
+
+SPR spr_mayor_end
+00111100
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+>
+00111100
+10011000
+01011000
+00111100
+00111110
+00111101
+00100100
+00100100
+NAME spr_mayor_end
+DLG dlg_mayor_end
+POS rm_end 0,9
+
+SPR spr_bed_0
+01111111
+10010000
+10100000
+11000000
+11000000
+10100000
+10011111
+11000000
+NAME spr_bed_0
+DLG dlg_newDay
+POS rm_home 10,7
+
+SPR spr_bed_1
+11111110
+00001001
+00000101
+00000011
+00000011
+00000101
+11111001
+00000011
+NAME spr_bed_1
+DLG dlg_newDay
+POS rm_home 11,7
+
+SPR spr_bed_2
+10100000
+11000100
+10000010
+10100010
+11000001
+10000000
+10011111
+10100000
+NAME spr_bed_2
+DLG dlg_newDay
+POS rm_home 10,8
+
+SPR spr_bed_3
+00000101
+00100011
+00100001
+00000101
+00100011
+00000001
+11111001
+00000101
+NAME spr_bed_3
+DLG dlg_newDay
+POS rm_home 11,8
+
+SPR spr_bed_4
+11000000
+10000111
+10100000
+10001111
+10000000
+10011111
+10111111
+11111111
+NAME spr_bed_4
+DLG dlg_newDay
+POS rm_home 10,9
+
+SPR spr_bed_5
+00000011
+00000001
+00100001
+11111111
+00000001
+11111001
+11111101
+11111111
+NAME spr_bed_5
+DLG dlg_newDay
+POS rm_home 11,9
+
+SPR spr_tv0
+01111111
+01000000
+01011111
+01010000
+01010000
+01010000
+01010000
+01011111
+NAME spr_tv0
+POS rm_home 8,6
+
+SPR spr_tv1
+11111110
+00000010
+11111010
+00001010
+00001010
+00001010
+00001010
+11111010
+NAME spr_tv1
+POS rm_home 9,6
+
+SPR spr_tv2
+01000000
+11111111
+10000001
+10001101
+10000001
+10000001
+11111111
+01000000
+NAME spr_tv2
+DLG dlg_tv
+POS rm_home 8,7
+
+SPR spr_tv3
+00000010
+11111111
+10000001
+10110001
+10000001
+10000001
+11111111
+00000010
+NAME spr_tv3
+DLG dlg_tv
+POS rm_home 9,7
+
+SPR spr_storage0
+00111111
+01010000
+10010000
+10010000
+10011111
+10100000
+11000000
+10000000
+NAME storage0
+DLG dlg_storageLogic
+POS rm_home 4,6
+
+SPR spr_storage1
+11111100
+00001010
+00001001
+00001001
+11111001
+00000101
+00000011
+00000001
+NAME storage1
+DLG dlg_storageLogic
+POS rm_home 5,6
+
+SPR spr_storage2
+10000000
+11111111
+10000010
+10000001
+10000000
+10000000
+10000000
+11111111
+NAME storage2
+DLG dlg_storageLogic
+POS rm_home 4,7
+
+SPR spr_storage3
+00000001
+11111111
+01000001
+10000001
+00000001
+00000001
+00000001
+11111111
+00000000
+00000000
+NAME storage3
+DLG dlg_storageLogic
+POS rm_home 5,7
+
+SPR spr_shippingBin0
+10111101
+11000011
+10000001
+10111101
+10111101
+10000001
+01111110
+00000000
+NAME shippingBin0
+DLG dlg_shippingBinLogic
+POS rm_farm 4,7
+
+SPR spr_shippingBin1
+00000000
+00111100
+01100110
+10100101
+10100101
+10100101
+10100101
+10100101
+NAME shippingBin1
+DLG dlg_shippingBinLogic
+POS rm_farm 4,6
+
+SPR spr_shippingBinSign
+11111111
+10000001
+10101001
+10010101
+10000001
+11111111
+00011000
+00011000
+NAME shippingBinSign
+DLG dlg_shippingBinSign
+POS rm_farm 3,6
+
+SPR spr_fieldSign
+11111111
+10000001
+10101001
+10010101
+10000001
+11111111
+00011000
+00011000
+NAME fieldSign
+DLG dlg_fieldSign
+POS rm_farm 9,2
+
+SPR spr_roadBlock0
+00000111
+00001010
+00001010
+00110011
+01111000
+00011100
+00001100
+00111010
+NAME spr_roadBlock0
+DLG dlg_roadBlock
+
+SPR spr_roadBlock1
+11100000
+00110000
+10010000
+10001100
+00011110
+10111000
+11111000
+01111110
+NAME spr_roadBlock1
+DLG dlg_roadBlock
+
+SPR spr_roadBlock2
+00000000
+00011111
+00111111
+00101101
+10100001
+10101011
+01101011
+10101111
+NAME spr_roadBlock2
+DLG dlg_roadBlock
+POS rm_forest 14,10
+
+SPR spr_roadBlock3
+00101111
+01101111
+01001110
+01000110
+11000111
+01000111
+01010111
+11011110
+NAME spr_roadBlock3
+DLG dlg_roadBlock
+POS rm_forest 14,11
+
+SPR spr_roadBlock4
+10011110
+10011110
+10011111
+11001110
+11001111
+11011101
+01111000
+00000000
+NAME spr_roadBlock4
+DLG dlg_roadBlock
+POS rm_forest 14,12
+
+SPR spr_NESTableBody_empty_0
+10000000
+11111111
+10000000
+10000000
+10000000
+10011111
+10111111
+11101010
+NAME spr_NESTableBody_empty_0
+
+SPR spr_NESTableBody_empty_1
+00000001
+11111111
+00000001
+00000001
+00000001
+11111001
+11111101
+10101011
+NAME spr_NESTableBody_empty_1
+
+SPR spr_NESTableTop_empty_0
+11111111
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+NAME spr_NESTableTop_empty_0
+
+SPR spr_NESTableTop_empty_1
+11111111
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+NAME spr_NESTableTop_empty_1
+
+SPR spr_NESTableBody_instance_hoe_0
+10000000
+11111111
+10000000
+10000000
+10000000
+10011111
+10111111
+11101010
+NAME spr_NESTableBody_instance_hoe_0
+DLG dlg_shopContainer_hoe
+POS rm_shop 4,7
+
+SPR spr_NESTableBody_instance_hoe_1
+00000001
+11111111
+00000001
+00000001
+00000001
+11111001
+11111101
+10101011
+NAME spr_NESTableBody_instance_hoe_1
+DLG dlg_shopContainer_hoe
+POS rm_shop 5,7
+
+SPR spr_NESTableTop_instance_hoe_0
+11111111
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+NAME spr_NESTableTop_instance_hoe_0
+POS rm_shop 4,6
+
+SPR spr_NESTableTop_instance_hoe_1
+11111111
+00000001
+01111001
+01000101
+01111001
+01000001
+01000001
+01000001
+NAME spr_NESTableTop_instance_hoe_1
+POS rm_shop 5,6
+
+SPR spr_NESTableBody_instance_axe_0
+10000000
+11111111
+10000000
+10000000
+10000000
+10011111
+10111111
+11101010
+NAME spr_NESTableBody_instance_axe_0
+DLG dlg_shopContainer_axe
+POS rm_shop 6,7
+
+SPR spr_NESTableBody_instance_axe_1
+00000001
+11111111
+00000001
+00000001
+00000001
+11111001
+11111101
+10101011
+NAME spr_NESTableBody_instance_axe_1
+DLG dlg_shopContainer_axe
+POS rm_shop 7,7
+
+SPR spr_NESTableTop_instance_axe_0
+11111111
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+NAME spr_NESTableTop_instance_axe_0
+POS rm_shop 6,6
+
+SPR spr_NESTableTop_instance_axe_1
+11111111
+00001001
+01110101
+01000101
+01110101
+01001001
+01000001
+01000001
+NAME spr_NESTableTop_instance_axe_1
+POS rm_shop 7,6
+
+# generated from WildSpawnModel
+ITM itm_snowYamWildSpawn
+00000000
+00001000
+00011100
+00001000
+00000000
+00000000
+00011000
+00100100
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00011000
+00100100
+NAME itm_snowYamWildSpawn
+DLG dlg_snowYamWildSpawn_general
+
+
+
+# ------ file constItemPart.txt ------
+
+ITM itm_money
+00111100
+01000010
+10011001
+10100101
+10100101
+10011001
+01000010
+00111100
+NAME money
+
+ITM itm_snowYam
+00001000
+00011000
+00111100
+00111100
+00111100
+00211000
+00110000
+NAME itm_snowYam
+
+ITM itm_char_A
+001110NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+011111NaNNaN
+010001NaNNaN
+010001NaNNaN
+000000NaNNaN
+NAME char_A
+
+ITM itm_char_B
+011110NaNNaN
+010001NaNNaN
+010001NaNNaN
+011110NaNNaN
+010001NaNNaN
+010001NaNNaN
+011110NaNNaN
+000000NaNNaN
+NAME char_B
+
+ITM itm_char_C
+001110NaNNaN
+010001NaNNaN
+010000NaNNaN
+010000NaNNaN
+010000NaNNaN
+010001NaNNaN
+001110NaNNaN
+000000NaNNaN
+NAME char_C
+
+ITM itm_char_D
+011110NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+011110NaNNaN
+000000NaNNaN
+NAME char_D
+
+ITM itm_char_E
+011111NaNNaN
+010000NaNNaN
+010000NaNNaN
+011110NaNNaN
+010000NaNNaN
+010000NaNNaN
+011111NaNNaN
+000000NaNNaN
+NAME char_E
+
+ITM itm_char_F
+011111NaNNaN
+010000NaNNaN
+010000NaNNaN
+011110NaNNaN
+010000NaNNaN
+010000NaNNaN
+010000NaNNaN
+000000NaNNaN
+NAME char_F
+
+ITM itm_char_G
+001110NaNNaN
+010001NaNNaN
+010000NaNNaN
+010111NaNNaN
+010001NaNNaN
+010001NaNNaN
+001111NaNNaN
+000000NaNNaN
+NAME char_G
+
+ITM itm_char_H
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+011111NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+000000NaNNaN
+NAME char_H
+
+ITM itm_char_I
+001110NaNNaN
+000100NaNNaN
+000100NaNNaN
+000100NaNNaN
+000100NaNNaN
+000100NaNNaN
+001110NaNNaN
+000000NaNNaN
+NAME char_I
+
+ITM itm_char_J
+000001NaNNaN
+000001NaNNaN
+000001NaNNaN
+000001NaNNaN
+010001NaNNaN
+010001NaNNaN
+001110NaNNaN
+000000NaNNaN
+NAME char_J
+
+ITM itm_char_K
+010001NaNNaN
+010010NaNNaN
+010100NaNNaN
+011000NaNNaN
+010100NaNNaN
+010010NaNNaN
+010001NaNNaN
+000000NaNNaN
+NAME char_K
+
+ITM itm_char_L
+010000NaNNaN
+010000NaNNaN
+010000NaNNaN
+010000NaNNaN
+010000NaNNaN
+010000NaNNaN
+011111NaNNaN
+000000NaNNaN
+NAME char_L
+
+ITM itm_char_M
+010001NaNNaN
+011011NaNNaN
+010101NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+000000NaNNaN
+NAME char_M
+
+ITM itm_char_N
+010001NaNNaN
+011001NaNNaN
+010101NaNNaN
+010011NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+000000NaNNaN
+NAME char_N
+
+ITM itm_char_O
+001110NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+001110NaNNaN
+000000NaNNaN
+NAME char_O
+
+ITM itm_char_P
+011110NaNNaN
+010001NaNNaN
+010001NaNNaN
+011110NaNNaN
+010000NaNNaN
+010000NaNNaN
+010000NaNNaN
+000000NaNNaN
+NAME char_P
+
+ITM itm_char_Q
+001110NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010101NaNNaN
+010010NaNNaN
+001101NaNNaN
+000000NaNNaN
+NAME char_Q
+
+ITM itm_char_R
+011110NaNNaN
+010001NaNNaN
+010001NaNNaN
+011110NaNNaN
+010010NaNNaN
+010001NaNNaN
+010001NaNNaN
+000000NaNNaN
+NAME char_R
+
+ITM itm_char_S
+001110NaNNaN
+010001NaNNaN
+010000NaNNaN
+001110NaNNaN
+000001NaNNaN
+010001NaNNaN
+001110NaNNaN
+000000NaNNaN
+NAME char_S
+
+ITM itm_char_T
+011111NaNNaN
+000100NaNNaN
+000100NaNNaN
+000100NaNNaN
+000100NaNNaN
+000100NaNNaN
+000100NaNNaN
+000000NaNNaN
+NAME char_T
+
+ITM itm_char_U
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+001110NaNNaN
+000000NaNNaN
+NAME char_U
+
+ITM itm_char_V
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+001010NaNNaN
+000100NaNNaN
+000000NaNNaN
+NAME char_V
+
+ITM itm_char_W
+010001NaNNaN
+010001NaNNaN
+010101NaNNaN
+010101NaNNaN
+010101NaNNaN
+010101NaNNaN
+001010NaNNaN
+000000NaNNaN
+NAME char_W
+
+ITM itm_char_X
+010001NaNNaN
+010001NaNNaN
+001010NaNNaN
+000100NaNNaN
+001010NaNNaN
+010001NaNNaN
+010001NaNNaN
+000000NaNNaN
+NAME char_X
+
+ITM itm_char_Y
+010001NaNNaN
+010001NaNNaN
+010001NaNNaN
+001010NaNNaN
+000100NaNNaN
+000100NaNNaN
+000100NaNNaN
+000000NaNNaN
+NAME char_Y
+
+ITM itm_char_Z
+011110NaNNaN
+000010NaNNaN
+000100NaNNaN
+001000NaNNaN
+010000NaNNaN
+010000NaNNaN
+011110NaNNaN
+000000NaNNaN
+NAME char_Z
+
+# generated from WildSlotModel
+# ###
+# arg_0 means index
+# ###
+DLG dlg_snowYamWildSlot_general
+"""
+{let_arrayItemValue = (getVariableByArrayItemNow "var_snowYamWildSlot_states, *arg_dlg_snowYamWildSlot_general_0")}
+{
+  - let_arrayItemValue == 1 ?
+    You gather a wild snow yam.
+    {item "itm_snowYam" {{item "itm_snowYam"} + 1}}
+    (setVariableByArrayItemNow "var_snowYamWildSlot_states, *arg_dlg_snowYamWildSlot_general_0, 0")
+    (imageByVarArrayItem "SPR, spr_snowYamWildSlot_instances, *arg_dlg_snowYamWildSlot_general_0, spr_snowYamWildSlot_protytypeEmpty")
+  - else ?
+    Here is empty!
+}
+"""
+NAME dlg_snowYamWildSlot_general
+# generated from WildSpawnModel
+DLG dlg_snowYamWildSpawn_general
+"""
+You gather a wild snow yam.
+{item "itm_snowYam" {{item "itm_snowYam"} + 1}}
+"""
+NAME dlg_snowYamWildSpawn_general
+
+
+# ------ file constDialogPart-other.txt ------
+
+DLG dlg_onTitleStart
+"""
+{item "itm_money" 0}
+"""
+NAME dlg_onTitleStart
+
+DLG listener_ondown_z
+"""
+{
+  - var_ownHoe == true ?
+    (jump "dlg_useHoe")
+}
+"""
+NAME listener_ondown_z
+
+DLG dlg_roadBlock
+"""
+{
+  - var_ownAxe == true ?
+    You destory the road block.(eraseAll "SPR, spr_roadBlock2, rm_forest")(eraseAll "SPR, spr_roadBlock3, rm_forest")(eraseAll "SPR, spr_roadBlock4, rm_forest")
+  - else ?
+    You need an axe to destory the road block.
+}
+"""
+NAME dlg_roadBlock
+
+DLG listener_onMovePlayer
+"""
+{let_tileId = {readTileIdAtNow "+0, +0"}}
+{
+  - let_tileId == "til_outdoor_grass" ?
+    (draw "TIL, til_outdoor_grass_footprint,+0,+0")
+}
+"""
+NAME listener_onMovePlayer
+
+DLG dlg_useHoe
+"""
+{let_tileId = {readTileIdAtNow "+0, +0"}}
+{
+  - let_tileId == "til_winterField_harvestHide" ?
+    {item "itm_snowYam" {{item "itm_snowYam"} + 1}}
+    You dig out one snow yam!
+    (draw "TIL, til_winterField_emptyShow,+0,+0, rm_farm")
+  - let_tileId == "til_winterField_emptyHide"?
+    Here is empty.
+    (draw "TIL, til_winterField_emptyShow,+0,+0, rm_farm")
+  - let_tileId == "til_winterField_emptyShow" ?
+    Here is empty.
+  - else ?
+    You can't dig here.
+}
+"""
+NAME dlg_useHoe
+
+# ##
+# arg_0 means choiceResult
+# ##
+DLG dlg_newDay_comfirmed
+"""
+{
+  - arg_0 == 1 ?
+    {var_calendarDate = var_calendarDate + 1}
+    (replaceAll "TIL, til_outdoor_grass_footprint, TIL, til_outdoor_grass, rm_farm")
+    (replaceAll "TIL, til_outdoor_grass_footprint, TIL, til_outdoor_grass, rm_forest")
+    (replaceAll "TIL, til_outdoor_grass_footprint, TIL, til_outdoor_grass, rm_lake")
+    {
+      - var_shippingBinItemsCount > 0 ?
+        {var_temp = var_shippingBinItemsCount * const_snowYamSellPrice}
+        You sell {print var_shippingBinItemsCount} snow yam(s) and gain {print var_temp}$.
+        {item "itm_money" {{item "itm_money"} + var_temp}}
+        {var_shippingBinItemsCount = 0}
+    }{
+      - var_calendarDate > const_goalLimitDate ?
+        {
+          - {item "itm_money"} >= const_goalMoney ?
+            You reach the goal!{pg}
+            {var_endSuccessful = true}
+            (exitNow "rm_end, 15, 9")
+          - else ? 
+            You don't reach the goal!{pg}
+            {var_endSuccessful = false}
+            (exitNow "rm_end, 15, 9")
+        }
+      - else ?
+        Day {print var_calendarDate} comes...
+        (randomVarArrayNow "var_snowYamWildSlot_states, 0, 2")
+        (imageByVarArrayCondition "SPR, spr_snowYamWildSlot_instances, var_snowYamWildSlot_states, 0, spr_snowYamWildSlot_protytypeEmpty, spr_snowYamWildSlot_protytypeHarvest")
+        (randomVarArrayNow "var_wildSpawnState_forest, 8, 2")
+        (randomVarArrayNow "var_wildSpawnState_lake, 8, 2")
+        (eraseAllNow "ITM, itm_snowYamWildSpawn, rm_forest")
+        (eraseAllNow "ITM, itm_snowYamWildSpawn, rm_lake")
+        (drawDiscreteByVarArrayCondition "var_wildSpawnState_forest, 8, ITM, 0, itm_snowYamWildSpawn, var_snowYamWildSpawn_spawnX_forest, var_snowYamWildSpawn_spawnY_forest, rm_forest")
+        (drawDiscreteByVarArrayCondition "var_wildSpawnState_lake, 8, ITM, 0, itm_snowYamWildSpawn, var_snowYamWildSpawn_spawnX_lake, var_snowYamWildSpawn_spawnY_lake, rm_lake")
+        (random2DVarArrayNow "var_winterFieldState, 3, 3, 2")
+        (drawBoxBy2DVarArrayCondition "var_winterFieldState, 3,  3, TIL, til_winterField_emptyHide, til_winterField_harvestHide, 9, 4, rm_farm")
+    }
+}
+"""
+NAME dlg_newDay_comfirmed
+
+# ------ file constDialogPart-item.txt ------
+
+DLG dlg_shippingBinSign
+At the end of each day, the businessman will gather the items in the shipping bin and paid you money.
+NAME shippingBinSign
+
+DLG dlg_fieldSign
+When you have a hoe, dig the fields to find the snow yams in it.
+NAME fieldSign
+
+DLG dlg_newDay
+"""
+Finish today?{choice
+  - Yes
+    {arg_0 = 1}
+  - No
+    {arg_0 = 0}
+}(jump "dlg_newDay_comfirmed")
+"""
+NAME dlg_newDay
+
+DLG dlg_shippingBinLogic_choiceCase1
+"""
+{
+  - var_temp_choiceResult == 1 ?
+    {
+      - {item "itm_snowYam"} > 0 ?
+        {var_shippingBinItemsCount = var_shippingBinItemsCount + {item "itm_snowYam"}}
+        You put {print {item "itm_snowYam"}} snow yam(s) into the shipping bin. Current count is {print var_shippingBinItemsCount}.
+        {item "itm_snowYam" 0}
+      - else ?
+        You don't have snow yam.
+    }
+}(jump "dlg_shippingBinLogic_choiceCase2")
+"""
+NAME dlg_shippingBinLogic_choiceCase1
+
+DLG dlg_shippingBinLogic_choiceCase2
+"""
+{
+  - var_temp_choiceResult == 2 ?
+    {
+      - {item "itm_snowYam"} > 0 ?
+        {var_shippingBinItemsCount = var_shippingBinItemsCount + 1}
+        You put 1 snow yam into the shipping bin. Current count is {print var_shippingBinItemsCount}.
+        {item "itm_snowYam" {{item "itm_snowYam"} - 1}}
+      - else ?
+        You don't have snow yam.
+    }
+}
+"""
+NAME dlg_shippingBinLogic_choiceCase2
+
+DLG dlg_shippingBinLogic
+"""
+Current count is {print var_shippingBinItemsCount}. Put snow yam(s) to shipping bin? {choice
+  - All
+    {var_temp_choiceResult = 1}
+  - One
+    {var_temp_choiceResult = 2}
+  - No
+    {var_temp_choiceResult = 0}
+}(jump "dlg_shippingBinLogic_choiceCase1")
+"""
+NAME dlg_shippingBinLogic
+
+DLG dlg_storageLogic
+"""
+You have {say {item "itm_money"}}$, {say {item "itm_snowYam"}} snow yam(s).
+"""
+NAME dlg_storageLogic
+
+DLG dlg_tv
+A tv.
+NAME dlg_tv
+
+
+
+# ------ file constDialogPart-npc.txt ------
+
+DLG dlg_mayor_start
+"""
+Welcome to the {print const_goalLimitDate}-day winter farm festival. The goal is that you hold at least {print const_goalMoney}$ at the {print const_goalLimitDate}-day end.(exit "rm_farm, 5, 0"){arg_0 = 1}(jump "dlg_newDay_comfirmed")
+"""
+NAME dlg_mayor_start
+
+DLG dlg_mayor_end
+"""
+{
+  - var_endSuccessful == true ?
+    Congratulation! You reach the goal with {say {item "itm_money"}}$. Please look forward to our next festival.{pg}{end}
+  - else ?
+    You only hold {say {item "itm_money"}}$ and don't reach the goal. Please look forward to our next festival.{pg}{end}
+}
+"""
+NAME dlg_mayor_end
+
+DLG dlg_shopContainer_hoe
+"""
+{arg_0 = const_hoeBuyPrice}
+{arg_1 = "hoe"}
+{arg_2 = (calculateBoolExpNow "*var_ownHoe, =, true")}
+{arg_dlg_shopContainer_general_checkComfirmed_buyDes = "You have the hoe now. Press key Z to use it in the farm field."}
+{arg_dlg_shopContainer_general_checkComfirmed_buyFlagPointer = "var_ownHoe"}
+{arg_dlg_shopContainer_general_checkComfirmed_price = const_hoeBuyPrice}
+(jump "dlg_shopContainer_general")
+"""
+NAME dlg_shopContainer_hoe
+
+DLG dlg_shopContainer_axe
+"""
+{arg_0 = const_axeBuyPrice}
+{arg_1 = "axe"}
+{arg_2 = (calculateBoolExpNow "*var_ownAxe, =, true")}
+{arg_dlg_shopContainer_general_checkComfirmed_buyDes = "You have the axe now. You can destory the road block."}
+{arg_dlg_shopContainer_general_checkComfirmed_buyFlagPointer = "var_ownAxe"}
+{arg_dlg_shopContainer_general_checkComfirmed_price = const_axeBuyPrice}
+(jump "dlg_shopContainer_general")
+"""
+NAME dlg_shopContainer_axe
+
+# ##
+# arg_0 means price
+# arg_1 means goodDes
+# arg_2 means soldout
+# ##
+DLG dlg_shopContainer_general
+"""
+{
+  - arg_2 == true ?
+    Here is empty.
+  - else
+    The price of the {print arg_1} is {print arg_0}$. {
+      - {item "itm_money"} >= arg_0 ?
+        {arg_0 = true}
+      - else   
+        {arg_0 = false}
+    }(jump "dlg_shopContainer_general_ask")
+}
+"""
+NAME dlg_shopContainer_general
+
+# ##
+# arg_0 means can_afford
+# ##
+DLG dlg_shopContainer_general_ask
+"""
+{
+  - arg_0 == true ?
+    {choice
+      - Yes
+        {arg_0 = true}
+      - No
+        {arg_0 = false}
+    }(jump "dlg_shopContainer_general_checkComfirmed")
+  - else
+    You can't afford it.
+}
+"""
+NAME dlg_shopContainer_general_ask
+
+# ##
+# arg_0 means confirmed
+# arg_dlg_shopContainer_general_checkComfirmed_buyDes
+# arg_dlg_shopContainer_general_checkComfirmed_buyFlagPointer
+# arg_dlg_shopContainer_general_checkComfirmed_price
+# ##
+DLG dlg_shopContainer_general_checkComfirmed
+"""
+{
+  - arg_0 == true ?
+    {print arg_dlg_shopContainer_general_checkComfirmed_buyDes}
+    {item "itm_money" {{item "itm_money"} - arg_dlg_shopContainer_general_checkComfirmed_price}}
+    (setVariableByPointerNow "arg_dlg_shopContainer_general_checkComfirmed_buyFlagPointer, true, AS_BOOL")
+  - else?
+    You can do it later.
+}(jump "dlg_shopContainer_general_postBuy")
+"""
+NAME dlg_shopContainer_general_checkComfirmed  
+
+DLG dlg_shopContainer_general_postBuy
+"""
+{
+  - var_ownHoe == true ?
+    (image "SPR, spr_NESTableBody_instance_hoe_0, spr_NESTableBody_empty_0")
+    (image "SPR, spr_NESTableBody_instance_hoe_1, spr_NESTableBody_empty_1")
+    (image "SPR, spr_NESTableTop_instance_hoe_0, spr_NESTableTop_empty_0")
+    (image "SPR, spr_NESTableTop_instance_hoe_1, spr_NESTableTop_empty_1")
+}{
+  - var_ownAxe == true ?
+    (image "SPR, spr_NESTableBody_instance_axe_0, spr_NESTableBody_empty_0")
+    (image "SPR, spr_NESTableBody_instance_axe_1, spr_NESTableBody_empty_1")
+    (image "SPR, spr_NESTableTop_instance_axe_0, spr_NESTableTop_empty_0")
+    (image "SPR, spr_NESTableTop_instance_axe_1, spr_NESTableTop_empty_1")
+}
+"""
+NAME dlg_shopContainer_general_postBuy
+
+DLG dlg_shopAssistant
+"""
+Welcome to our store.
+"""
+NAME dlg_shopAssistant
+
+# generated from GameDataBuilder
+# --------------------
+
+VAR var_snowYamWildSpawn_spawnX_forest_0
+4
+
+VAR var_snowYamWildSpawn_spawnY_forest_0
+3
+
+VAR var_snowYamWildSpawn_spawnX_forest_1
+10
+
+VAR var_snowYamWildSpawn_spawnY_forest_1
+3
+
+VAR var_snowYamWildSpawn_spawnX_forest_2
+13
+
+VAR var_snowYamWildSpawn_spawnY_forest_2
+4
+
+VAR var_snowYamWildSpawn_spawnX_forest_3
+3
+
+VAR var_snowYamWildSpawn_spawnY_forest_3
+6
+
+VAR var_snowYamWildSpawn_spawnX_forest_4
+12
+
+VAR var_snowYamWildSpawn_spawnY_forest_4
+9
+
+VAR var_snowYamWildSpawn_spawnX_forest_5
+4
+
+VAR var_snowYamWildSpawn_spawnY_forest_5
+10
+
+VAR var_snowYamWildSpawn_spawnX_forest_6
+2
+
+VAR var_snowYamWildSpawn_spawnY_forest_6
+11
+
+VAR var_snowYamWildSpawn_spawnX_forest_7
+5
+
+VAR var_snowYamWildSpawn_spawnY_forest_7
+14
+
+VAR var_snowYamWildSpawn_spawnX_lake_0
+4
+
+VAR var_snowYamWildSpawn_spawnY_lake_0
+3
+
+VAR var_snowYamWildSpawn_spawnX_lake_1
+10
+
+VAR var_snowYamWildSpawn_spawnY_lake_1
+3
+
+VAR var_snowYamWildSpawn_spawnX_lake_2
+13
+
+VAR var_snowYamWildSpawn_spawnY_lake_2
+4
+
+VAR var_snowYamWildSpawn_spawnX_lake_3
+2
+
+VAR var_snowYamWildSpawn_spawnY_lake_3
+6
+
+VAR var_snowYamWildSpawn_spawnX_lake_4
+12
+
+VAR var_snowYamWildSpawn_spawnY_lake_4
+15
+
+VAR var_snowYamWildSpawn_spawnX_lake_5
+3
+
+VAR var_snowYamWildSpawn_spawnY_lake_5
+10
+
+VAR var_snowYamWildSpawn_spawnX_lake_6
+2
+
+VAR var_snowYamWildSpawn_spawnY_lake_6
+12
+
+VAR var_snowYamWildSpawn_spawnX_lake_7
+5
+
+VAR var_snowYamWildSpawn_spawnY_lake_7
+14
+
+
+
+# ------ file constVarPart.txt ------
+
+VAR var_ownHoe
+false
+
+VAR var_ownAxe
+false
+
+VAR var_endSuccessful
+false
+
+VAR const_goalMoney
+100
+
+VAR const_goalLimitDate
+5
+
+VAR var_calendarDate
+0
+
+VAR var_shippingBinItemsCount
+0
+
+VAR const_snowYamSellPrice
+5
+
+VAR const_hoeBuyPrice
+25
+
+VAR const_axeBuyPrice
+15
+
+
